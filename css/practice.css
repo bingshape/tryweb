@@ -64,10 +64,10 @@ ul li {
 }
 #homepage {
     background-color: rgb(245, 245, 245);
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: block;
-    height: 520px;
+    height: 450px;
 }
 
 #homepage .content{
@@ -84,5 +84,38 @@ ul li {
 }
 
 #footer {
-    height: 60px;
+    height: 50px;
+}
+
+#footer .content {
+    width: 1000px;
+    margin: auto;
+}
+
+#footer .content li {
+    float: left;
+}
+
+#footer .content li a,
+#footer .content li span {
+    display: inline-block;
+    height: 40px;
+    line-height:40px;
+    margin: 5px 10px;
+    color: rgb(40, 110, 60);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#footer .content li#email,
+#footer .content li#copyright {
+    float: right;
+}
+
+#footer .content li#email a {
+    color: rgb(66, 139, 202);
+}
+
+#footer .content li#email a:hover {
+    text-decoration: underline;
 }
